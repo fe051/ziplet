@@ -5,22 +5,21 @@ package com.github.ziplet.filter.compression.statistics;
  */
 public interface CompressingFilterStats {
 
-    public void incrementNumResponsesCompressed();
+    void incrementNumResponsesCompressed();
 
-    public void incrementTotalResponsesNotCompressed();
+    void incrementTotalResponsesNotCompressed();
 
-    public void incrementNumRequestsCompressed();
+    void incrementNumRequestsCompressed();
 
-    public void incrementTotalRequestsNotCompressed();
+    void incrementTotalRequestsNotCompressed();
 
-    public void notifyRequestBytesRead(long read);
+    void notifyRequestBytesRead(long read);
 
-    public void notifyCompressedRequestBytesRead(long read);
+    void notifyCompressedRequestBytesRead(long read);
 
-    public void notifyResponseBytesWritten(long written);
+    void notifyResponseBytesWritten(long written);
 
-    public void notifyCompressedResponseBytesWritten(long written);
+    void notifyCompressedResponseBytesWritten(long written);
 
-    public String getStatsKey();
-
+    String getStatsKey();
 }

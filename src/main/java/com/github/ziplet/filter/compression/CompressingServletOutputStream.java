@@ -30,7 +30,6 @@ import java.io.OutputStream;
  */
 final class CompressingServletOutputStream extends ServletOutputStream {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(CompressingServletOutputStream.class);
     private final OutputStream rawStream;
     private final CompressingStreamFactory compressingStreamFactory;
     private final CompressingHttpServletResponse compressingResponse;
