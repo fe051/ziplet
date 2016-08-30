@@ -20,7 +20,6 @@ import com.github.ziplet.filter.compression.statistics.CompressingFilterStatsImp
 import junit.framework.TestCase;
 
 import java.io.ByteArrayOutputStream;
-import java.io.InputStream;
 import java.io.OutputStream;
 
 /**

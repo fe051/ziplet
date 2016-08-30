@@ -16,7 +16,6 @@
 package com.github.ziplet.filter.compression;
 
 import com.github.ziplet.filter.compression.statistics.CompressingFilterStats;
-import com.github.ziplet.filter.compression.statistics.CompressingFilterStatsImpl;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
